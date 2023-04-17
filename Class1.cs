@@ -49,7 +49,7 @@ namespace ConsoleApp1
             for (int i = 0; i < y; i++)
             {
                 Console.Write("|");
-                    for (int j = 0; j < x; j++)
+                    for (int j = 1; j < x; j++)
                 { Console.Write("  ");
                     if (j == x -1)
                     {
