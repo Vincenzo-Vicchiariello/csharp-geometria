@@ -34,6 +34,7 @@ namespace ConsoleApp1
 
 
         public void PrintRectangle(int x, int y)
+        
         {
             for (int i = 1; i < x; i++)
             {
@@ -47,9 +48,22 @@ namespace ConsoleApp1
 
             for (int i = 0; i < y; i++)
             {
-                Console.WriteLine("|");
+                Console.Write("|");
+                    for (int j = 0; j < x; j++)
+                { Console.Write("  ");
+                    if (j == x -1)
+                    {
+                        Console.WriteLine("|");
+                    }
 
-            }
+                }
+              
+
+            } 
+
+
+
+
             for (int i = 1; i < x; i++)
             {
                 Console.Write("--");
