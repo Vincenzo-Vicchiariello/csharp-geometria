@@ -15,7 +15,13 @@ myRectangle rectangle1 = new myRectangle(myRectangleBase, myRectangleHeight);
 
 
 int finalResultArea = rectangle1.AreaCalc(myRectangleBase, myRectangleHeight);
-int finalResultPerimeter = rectangle1.PerimeterCalc(myRectangleBase, myRectangleHeight);  
+int finalResultPerimeter = rectangle1.PerimeterCalc(myRectangleBase, myRectangleHeight);
+
 
 Console.WriteLine($"L'area del tuo rettangolo è di {finalResultArea} cm2");
 Console.WriteLine($"Il perimetro del tuo rettangolo è di {finalResultPerimeter} cm.");
+
+rectangle1.PrintRectangle(myRectangleBase, myRectangleHeight);
+
+
+

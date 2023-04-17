@@ -33,6 +33,36 @@ namespace ConsoleApp1
         }
 
 
+        public void PrintRectangle(int x, int y)
+        {
+            for (int i = 1; i < x; i++)
+            {
+                Console.Write("--");
+
+                if (i == x - 1)
+                {
+                    Console.WriteLine("--");
+                }
+            }
+
+            for (int i = 0; i < y; i++)
+            {
+                Console.WriteLine("|");
+
+            }
+            for (int i = 1; i < x; i++)
+            {
+                Console.Write("--");
+
+                if (i == x - 1)
+                {
+                    Console.WriteLine("--");
+                }
+            }
+
+        }
+
+
     }
 }
 
